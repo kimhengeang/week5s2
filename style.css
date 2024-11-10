@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+body{
+    background-color: rgb(112, 202, 202);
+}
+.container{
+    display: flex;
+}
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background-color:white;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: brown;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    color: rgb(82, 41, 41);
+    font-size: 14px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+}
+nav .fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 30px;
+    text-align: center;
+}
+nav.item{
+    position: relative;
+    top:12px;
+    margin-left: 10p;
+}
+a:hover{
+    background-color:whitesmoke ;
+}
+.logout{
+    position: absolute;
+    bottom: 10px;
+}
+/* main section */
+.main{
+    position: relative;
+    padding: 20px;
+    width: 	100%;
+}
+.main-top{
+    display: flex;
+    width: 100%;
+
+}
+.main-top i{
+    position:absolute;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(80, 31, 31); 
+    cursor: pointer;  
+}
+.main-skill{
+    display: flex;
+    margin-top: 20px;
+}
+.main-skill .card{
+    width: 25%;
+    margin: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: black;
+}
+.main-skill .card h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+.main-skill .card p{
+    font-size: 12px;
+}
+.main-skill .card button{
+    background-color: orange;
+    color: antiquewhite;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.main-skill .card button:hover{
+    background-color: rgb(87, 36, 36);
+}
+.main-skill.card i{
+    font-size: 23px;
+    padding: 10px;
+}
+/* course */
+.main-course{
+    margin-top: 50px;
+    text-transform: capitalize;
+
+}
+.course-box{
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.course-box ul{
+    list-style: none;
+    display: flex;
+
+}
+.course-box ul li{
+    margin: 10px;
+    color: grey;
+    cursor: pointer;
+}
+.course-box ul .active{
+    color: rgb(19, 15, 10);
+    border-bottom: 1px solid black;
+}
+.course-box .course{
+    display: flex;
+
+}
+.box{
+    width: 33%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(233, 222, 208);
+}
+.box p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.box button{
+    background-color: black;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.box button:hover{
+    background-color: brown;
+}
+.box i{
+    font-size: 7rem;
+    float: right;
+    margin: -20px 20px 20px 0;
+}
+.html{
+    color: brown;
+}
+.css{
+    color: blue;
+}
+.js{
+    color: red;
+}
+    

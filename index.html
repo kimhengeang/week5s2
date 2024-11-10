@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#" class="logo">
+                    <img src="data:image/png;base64,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" alt="">
+                    <span class="item">DashBoard</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-home"></i>
+                    <span class="item">Home</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-user"></i>
+                    <span class="item">Profile</span>
+                </a></li> 
+                <li><a href="#">
+                    <i class="fas fa-wallet"></i>
+                    <span class="item">Wallet</span>
+                </a></li> 
+                <li><a href="#">
+                    <i class="fas fa-chart-bar"></i>
+                    <span class="item">Analytic</span>
+                </a></li> 
+                <li><a href="#">
+                    <i class="fas fa-tasks"></i>
+                    <span class="item">Tasks</span>
+                </a></li> 
+                <li><a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="item">Setting</span>
+                </a></li> 
+                <li><a href="#">
+                    <i class="fas fa-question-circle"></i>
+                    <span class="item">Help</span>
+                </a></li>
+                <li><a href="#" class="logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span class="item">Log out</span>
+                </a></li>
+            </ul>
+        </nav>
+        <section class="main">
+            <div class="main-top">
+                <h1>Skills</h1>
+                <i class="fas fa-user-cog"></i>
+            </div>
+            <div class="main-skill">
+                <div class="card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web development</h3>
+                    <p>join over 1 million student</p>
+                    <button>Get Start</button>
+                </div>
+                <div class="card">
+                    <i class="fab fa-wordpress"></i>
+                    <h3>Wordpress</h3>
+                    <p>join over 1 million student</p>
+                    <button>Get Start</button>
+                </div>
+                <div class="card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Geaphic design</h3>
+                    <p>join over 1 million student</p>
+                    <button>Get Start</button>
+                </div>
+                <div class="card">
+                    <i class="fab fa-app-store-ios"></i>
+                    <h3>IOS Dev</h3>
+                    <p>join over 1 million student</p>
+                    <button>Get Start</button>
+                </div>
+            </div>
+
+            <section class="main-course">
+                <h1>my courses</h1>
+                <div class="course-box">
+                    <ul>
+                        <li class="active">In progress</li>
+                        <li>explore</li>
+                        <li>Incoming</li>
+                        <li>Finished</li>
+                    </ul>
+                    <div class="course">
+                        <div class="box">
+                            <h3>CSS</h3>
+                            <p>20%-progress</p>
+                            <button>continue</button>
+                            <i class="fab fa-css3-alt css"></i>
+                        </div>
+                        <div class="box">
+                            <h3>HTML</h3>
+                            <p>20%-progress</p>
+                            <button>continue</button>
+                            <i class="fab fa-html5 html"></i>
+                        </div>
+                        <div class="box">
+                            <h3>JavaScript</h3>
+                            <p>20%-progress</p>
+                            <button>continue</button>
+                            <i class="fab fa-js-square js"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
